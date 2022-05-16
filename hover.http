@@ -1,0 +1,17 @@
+{
+	"jsonrpc": "2.0",
+	"id": 1,
+	"method": "textDocument/hover",
+	"params": {
+		"textDocument": "GET / HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: www.google.com
+User-Agent: HTTPie/3.2.1",
+		"position": {
+			"line": 1,
+			"character": 1
+		}
+	}
+}

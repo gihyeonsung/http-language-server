@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>http_language_server</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Syntax.fs" />
+    <Compile Include="Parser.fs" />
+    <Compile Include="Server.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AustinHarris.JsonRpc" Version="1.2.3" />
+    <PackageReference Include="fparsec" Version="1.1.1" />
+    <PackageReference Include="FSharp.Data" Version="4.2.8" />
+  </ItemGroup>
+
+</Project>

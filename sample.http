@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: www.google.com
+User-Agent: HTTPie/3.2.1
